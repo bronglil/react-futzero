@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'vp-close-icon';
+  src:  url('fonts/vp-close-icon-font06c0.eot?lv4qfq');
+  src:  url('fonts/vp-close-icon-font06c0.eot?lv4qfq#iefix') format('embedded-opentype'),
+    url('fonts/vp-close-icon-font06c0.ttf?lv4qfq') format('truetype'),
+    url('fonts/vp-close-icon-font06c0.html?lv4qfq') format('woff'),
+    url('fonts/vp-close-icon-font06c0.svg?lv4qfq#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.vp-close-button{
+  font-family: 'vp-close-icon' !important;
+  speak: none !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  line-height: 1 !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}
+
+.vp-close-button:before{
+  content: "\61";
+}
